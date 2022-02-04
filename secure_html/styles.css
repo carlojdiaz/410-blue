@@ -1,0 +1,52 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Dongle', sans-serif;
+    background-color: whitesmoke;
+    font-size: 32px;
+    padding: 0rem 2rem;
+}
+
+li{
+    list-style: none;
+}
+
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    padding: 0 3rem 1rem 3rem;
+    border-bottom: solid gray 1px;
+}
+
+.navbar a, a:visited{
+    color: black;
+    transition: 0.3s ease-in-out;
+    padding: 2px 5px;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    padding: 2px 5px;
+    color: gray;
+    cursor: pointer;
+}
+
+.img-paragraph{
+    display: flex;
+}
+
+.img-paragraph p{
+    margin: 0 1rem;
+    line-height: 30px;
+}
+
+.img-paragraph img{
+    width: 40%;
+    height: 100%;
+}
+
+.d-flex{
+    display:flex;
+}
