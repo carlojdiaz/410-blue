@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title> NFT Art Theft Tracker </title>
+      <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Montserrat:wght@300&family=Open+Sans:wght@300&family=Quicksand:wght@300&display=swap');
+      </style>
+      <link rel="stylesheet" href="styles.css">
+      
+    </head>
+    
+    <body>
+      <h1>NFT Art Theft Tracker</h1>
+      <h2>A project by CS410 blue team</h2>
+
+      <h2>Problem Statement</h2>
+      <p>Artists are experiencing an increase in art theft as their art is minted as NFTs and do not know how, or lack the ability, to take the theft down.</p>
+      <h3>Biography</h3>
+      <h4>Carlo Diaz</h4>
+      <img class"" src="img/team/CarloDiaz.jpg" width="230" height="auto"/>
+      <p>Carlo Diaz is a junior computer science major at Old Dominion University. He is an aspiring software engineer who mainly codes in C++ and Java, with experience in front-end development in HTML/CSS/JS and React. In his free time, he enjoys doing coding challenges, playing music, and playing video games. He will graduate in Spring 2023.</p>
+      <h4>Spencer Hite</h4>
+      <img class="" src="img/team/SpencerHite.jpg" width="230" height="auto"/>
+      <p>Spencer Hite is an Army brat that grew up between Germany and the States. He has an affinity for technology and he loves to spend his free time learning about new blockchain technologies and their applications.</p>
+      <h4>Paolo Ihde</h4>
+      <img class"" src="img/team/PaoloIhde.jpg" width="230" height="auto"/>
+      <p>Paolo Ihde is a senior undergraduate student majoring in computer science at Old Dominion University. He currently lives in Virginia Beach and has lived there his entire life. He has an upcoming software development internship at IBM during the summer. In his free time, he likes to read, play video games, and play piano.</p>
+      <h4>Brandon Kidd</h4>
+      <img class"" src="img/team/BrandonKidd.jpg" width="218" height="auto"/>
+      <p>Brandon Kidd is a senior at Old Dominion University pursuing a BS in Computer Science and a minor in Cybersecurity. He moved to Virginia from Oklahoma in 2017 to pursue his education and is set to start an internship with Amazon Web Services this summer. In his free time, he enjoys playing basketball, video games, and going on bike rides.</p>
+      <h4>Michael Thompson</h4>
+      <img class"" src="img/team/MichaelThompson.jpg" width="230" height="auto"/>
+      <p> Michael Thompson is a Computer Science major in Old Dominion University that is currently on their senior year. He originally lived in California but then moved out to Virginia. Their hobbies include playing video games, watching movies, and reading comics.</p>
+      <h4>Autumn Roberts</h4>
+      <img class="" src="img/team/AutumnRoberts.jpg" width="230" height="auto"/>
+      <p>Autumn Roberts is a computer science major in her senior year at Old Dominion University graduating Fall 2022. She volunteers in her free time at the Boys and Girls Club providing IT support and working with kids. Right now she works retail at a video game retailer. She also enjoys 3D puzzles/models, playing Dungeons and Dragons, and video games</p>
+      <h4>Tobin Zheng</h4>
+      <img class="" src="img/team/TZ-Profile.jpg" width="230" height="auto"/>
+      <p>Tobin Zheng is a senior at Old Dominion University pursuing a bachelor's degree in Computer Science. He currently works as a research assistant at the V.M.A.S.C. Capabilities Lab. Some of his hobbies include photography, video games, and working out.</p>
+      <h2>Competition Matrix<h2>
+	  
+
+    </body>
+    
+</html>
