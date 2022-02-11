@@ -16,44 +16,44 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
+    
     <body id="page-top">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
-          <div class="container">
-              <a class="navbar-brand" href="#page-top">CS 410 Team Blue</a>
-              <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                  Menu
-                  <i class="fas fa-bars"></i>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarResponsive">
-                  <ul class="navbar-nav ms-auto">
-                      <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="index.html#problem">Problem</a></li>
-                      <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="index.html#team">Team</a></li>
-                      <li class="nav-item dropdown mx-0 mx-lg-1">
-                          <a class="nav-link dropdown-toggle py-3 px-0 px-lg-3 rounded" href="#presentations" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <div class="container">
+                <a class="navbar-brand" href="#page-top">CS 410 Team Blue</a>
+                <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#problem">Problem</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#team">Team</a></li>
+                        <li class="nav-item dropdown mx-0 mx-lg-1">
+                          <a class="nav-link dropdown-toggle py-3 px-0 px-lg-3 rounded" href="./presentations.html#presentations" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Presentations
                           </a>
                           <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
                             <li><a class="dropdown-item" href="./presentations.html#original">Original Presentation</a></li>
                             <li><a class="dropdown-item" href="./presentations.html#feasibility">Feasibility v0.1</a></li>
                           </ul>
-                      </li>
-                      <li class="nav-item dropdown mx-0 mx-lg-1">
-                        <a class="nav-link dropdown-toggle py-3 px-0 px-lg-3 rounded" href="#presentations" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Deliverables
-                        </a>
-                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-                          <li><a class="dropdown-item" href="./deliverables.html#process-flows">Process Flows</a></li>
-                          <li><a class="dropdown-item" href="./deliverables.html#risks">Risks</a></li>
-                        </ul>
-                      </li>
-                      <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#references">References</a></li>
-                  </ul>
-              </div>
-          </div>
-      </nav>
+                        </li>
+                        <li class="nav-item dropdown mx-0 mx-lg-1">
+                            <a class="nav-link dropdown-toggle py-3 px-0 px-lg-3 rounded" href="./deliverables.html#deliverables" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Deliverables
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                              <li><a class="dropdown-item" href="./deliverables.html#risks">Risks</a></li>
+                            </ul>
+                          </li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#references">References</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
-        <header class="masthead text-white text-center bg-danger bg-opacity-75">
+        <header class="masthead text-white text-center bg-danger bg-opacity-75" id="deliverables">
             <div class="container d-flex align-items-center flex-column">
                 <!-- Masthead Heading-->
                 <h1 class="masthead-heading text-uppercase mb-0">Deliverables</h1>
@@ -64,51 +64,79 @@
             </div>
         </header>
 
-        <!-- Process Flows Section -->
-        <section class="page-section text-white" style="background-color: #ed7117;" id="process-flows">
+        <section class="page-section text-white" style="background-color: #ed7117;" id="risks">
             <div class="container">
-                <!-- Process Flow Diagrams Heading -->
-                <h4 class="page-section-heading text-center text-uppercase text-secondary mb-0 text-white">Process Flows</h4>
-                <!-- Icon Divider-->
-                <div class="divider-custom divider-light">
-                    <div class="divider-custom-line"></div>
-                </div>
-                <!-- Current Process Flow -->
-                <h4 class="text-center text-uppercase text-secondary my-5 text-white">Current Process Flow</h4>
-                <div class="text-center">
-                  <img src="assets/img/deliverables/CURRENT Process Flow.jpg" width="90%">
-                </div>
-                <!-- Icon Divider -->
-                <div class="divider-custom divider-light">
-                  <div class="divider-custom-line mt-4"></div>
-                </div>
-                <!-- Solution Process Flow -->
-                <h4 class="text-center text-uppercase text-secondary my-5 text-white">Solution Process Flow</h4>
-                <div class="text-center">
-                  <img src = "assets/img/deliverables/Solution Process Flow.jpg" width="90%">
-                </div>
-            </div>
-        </section>
-
-        <!-- Risks Section -->
-        <section class="page-section text-white bg-success bg-opacity-75" id="risks">
-            <div class="container">
-                <!-- Risks Heading-->
+                <!-- Heading -->
                 <h4 class="page-section-heading text-center text-uppercase text-secondary mb-0 text-white">Risks</h4>
                 <!-- Icon Divider-->
                 <div class="divider-custom divider-light">
                     <div class="divider-custom-line"></div>
                 </div>
+                <!-- Risk Deliverable Modals -->
+                <div class="row justify-content-center">
+                    <!-- Risk Matrix -->
+                    <div class="shadow divide-y divide-gray-200 rounded col-md-6 col-lg-4 mb-lg-4 pb-md-3 bg-light">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-dark pt-2">
+                                    <h5>Risk Matrix <i class='fas fa-external-link-alt' style="color:black"></i></h5>
+                                </div>
+                            </div>
+                            <div class= "flex-1 flex flex-col items-center justify-center">
+                                <img class="img-fluid rounded shadow-lg" src="assets/img/deliver/risk-matrix.jpg" alt="..." />
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
-        
 
         <!-- Footer -->
         <div class="copyright py-4 text-center text-white">
             <div class="container"><small>Team Blue Spring 2022</small></div>
         </div>
 
-        
+        <!-- Risk Matrix Modal -->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Risk Matrix</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/deliver/risk-matrix.jpg" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <div class="mb-4 text-start">
+                                    <p> Customer Risks </p>
+                                    <ul>
+                                        <li>C-1: Users could abuse the system by uploading art that is not theirs.</li>
+                                        <li>C-2: Users falsely approve/deny takedown notifications.</li>
+                                    </ul>
+                                    <p> Technical Risks </p>
+                                    <ul>
+                                        <li>T-1: False flags of copyrighted art.</li>
+                                        <li>T-2: System might send notifications to users with an NFT unrelated to them.</li>
+                                        <li>T-3: Market does not comply with copyright strike.</li>
+                                        <ul></ul>
+                                    </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
