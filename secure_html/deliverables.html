@@ -46,6 +46,7 @@
                             <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
                               <li><a class="dropdown-item" href="./deliverables.html#risks">Risks</a></li>
                               <li><a class="dropdown-item" href="./deliverables.html#process-flows">Process Flows</a></li>
+                              <li><a class="dropdown-item" href="./deliverables.html#mfcd">Major Functional Component Diagram</a></li>
                             </ul>
                           </li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#references">References</a></li>
@@ -74,14 +75,36 @@
                     <div class="divider-custom-line"></div>
                 </div>
                 <!-- Risk Deliverable Modals -->
-                <div class="row justify-content-center">
-                    <!-- Risk Matrix -->
+                <div class="container row justify-content-evenly">
+                    <!-- Technical Risk Matrix -->
                     <div class="shadow rounded col-md-6 col-lg-4 mb-lg-4 pb-md-3 bg-light" style="cursor:pointer;">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-dark pt-2">
-                                    <h5>Risk Matrix <i class='fas fa-external-link-alt' style="color:black"></i></h5>
-                                    <img class="img-fluid rounded shadow-lg" src="assets/img/deliver/risk-matrix.jpg" alt="..." />
+                                    <h5>Technical Risk Matrix <i class='fas fa-external-link-alt' style="color:black"></i></h5>
+                                    <img class="img-fluid rounded shadow-lg" src="assets/img/deliver/Technical_Risk_Matrix.jpg" alt="..." />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Customer Risk Matrix -->
+                    <div class="shadow rounded col-md-6 col-lg-4 mb-lg-4 pb-md-3 bg-light" style="cursor:pointer;">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-dark pt-2">
+                                    <h5>Customer Risk Matrix <i class='fas fa-external-link-alt' style="color:black"></i></h5>
+                                    <img class="img-fluid rounded shadow-lg" src="assets/img/deliver/Customer_Risk_Matrix.jpg" alt="..." />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Security Risk Matrix -->
+                    <div class="shadow rounded col-md-6 col-lg-4 mb-lg-4 pb-md-3 bg-light" style="cursor:pointer;">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-dark pt-2">
+                                    <h5>Security Risk Matrix <i class='fas fa-external-link-alt' style="color:black"></i></h5>
+                                    <img class="img-fluid rounded shadow-lg" src="assets/img/deliver/Security_Risk_Matrix.jpg" alt="..." />
                                 </div>
                             </div>
                         </div>
@@ -102,7 +125,7 @@
                 <!-- Current Process Flow -->
                 <h4 class="text-center text-uppercase text-secondary my-5 text-white">Current Process Flow</h4>
                 <div class="text-center">
-                  <img src="assets/img/deliver/CURRENT Process Flow.jpg" width="90%">
+                  <img src="assets/img/deliver/Current_Process_Flow.jpg" width="90%">
                 </div>
                 <!-- Icon Divider -->
                 <div class="divider-custom divider-light">
@@ -111,7 +134,24 @@
                 <!-- Solution Process Flow -->
                 <h4 class="text-center text-uppercase text-secondary my-5 text-white">Solution Process Flow</h4>
                 <div class="text-center">
-                  <img src = "assets/img/deliver/SOLUTION Process Flow.jpg" width="90%">
+                  <img src="assets/img/deliver/Solution_Process_Flow.jpg" width="90%">
+                </div>
+            </div>
+        </section>
+
+        <!-- Major Functional Component Diagram -->
+        <section class="page-section text-white bg-success bg-opacity-75" id="process-flows">
+            <div class="container">
+                <!-- MFCD Heading -->
+                <h4 class="page-section-heading text-center text-uppercase text-secondary mb-0 text-white">Process Flows</h4>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Current Process Flow -->
+                <h4 class="text-center text-uppercase text-secondary my-5 text-white">Major Functional Component Diagram</h4>
+                <div class="text-center">
+                  <img src="assets/img/deliver/MFCD.jpg" width="90%">
                 </div>
             </div>
         </section>
@@ -121,7 +161,7 @@
             <div class="container"><small>Team Blue Spring 2022</small></div>
         </div>
 
-        <!-- Risk Matrix Modal -->
+        <!-- Technical Risk Matrix Modal -->
         <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
             <div class="modal-dialog modal-xl">
                 <div class="modal-content">
@@ -131,26 +171,28 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Risk Matrix</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Technical Risk Matrix</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/deliver/risk-matrix.jpg" alt="..." />
+                                    <img class="img-fluid rounded mb-5" src="assets/img/deliver/Technical_Risk_Matrix.jpg" alt="..." />
                                     <!-- Portfolio Modal - Text-->
                                     <div class="mb-4 text-start">
-                                    <p> Customer Risks </p>
-                                    <ul>
-                                        <li>C-1: Users could abuse the system by uploading art that is not theirs.</li>
-                                        <li>C-2: Users falsely approve/deny takedown notifications.</li>
-                                    </ul>
                                     <p> Technical Risks </p>
                                     <ul>
-                                        <li>T-1: False flags of copyrighted art.</li>
-                                        <li>T-2: System might send notifications to users with an NFT unrelated to them.</li>
-                                        <li>T-3: Market does not comply with copyright strike.</li>
-                                        <ul></ul>
+                                        <li>T-1: Matching API mismatches user’s art.</li>
+                                        <li>T-2: Market does not comply with DMCA.</li>
+                                        <li>T-3: ID API does not correctly verify identity.</li>
+                                        <li>T-4: System sends DMCA to wrong art.</li>
+                                    </ul>
+                                    <p> Technical Risk Mitigations </p>
+                                    <ul>
+                                        <li>T-1: User verifies art is theirs before sending DMCA.</li>
+                                        <li>T-2: Flag art that reappears in the market place and notify user.</li>
+                                        <li>T-3: Verify Information and make corrections.</li>
+                                        <li>T-4: Final verification check.</li>
                                     </ul>
                                     </div>
                                 </div>
@@ -161,6 +203,81 @@
             </div>
         </div>
 
+        <!-- Customer Risk Matrix Modal -->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Customer Risk Matrix</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/deliver/Technical_Risk_Matrix.jpg" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <div class="mb-4 text-start">
+                                    <p> Customer Risks </p>
+                                    <ul>
+                                        <li>C-1: Users abuse the system by uploading art they do not own.</li>
+                                        <li>C-2: Customer doesn’t know how to use the app.</li>
+                                    </ul>
+                                    <p> Customer Risk Mitigations </p>
+                                    <ul>
+                                        <li>C-1: Sign up using art accounts.</li>
+                                        <li>C-2: Integrated User Tutorial.</li>
+                                    </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Security Risk Matrix Modal -->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Customer Risk Matrix</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/deliver/Technical_Risk_Matrix.jpg" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <div class="mb-4 text-start">
+                                    <p> Security Risks </p>
+                                    <ul>
+                                        <li>S-1: Unauthorized access to a user account.</li>
+                                        <li>S-2: Database Integrity.</li>
+                                    </ul>
+                                    <p> Security Risk Mitigations </p>
+                                    <ul>
+                                        <li>S-1: Two Factor Authentication for Login.</li>
+                                        <li>S-2: Encrypt all user personal data.</li>
+                                    </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
